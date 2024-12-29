@@ -1,140 +1,70 @@
+# Getting Started with Create React App
 
-# Personal Portfolio Website
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A personal portfolio website built with React, showcasing skills, experience, and contact details.
+## Available Scripts
 
-## Table of Contents
+In the project directory, you can run:
 
-- [Description](#description)
-- [Installation](#installation)
-- [Running the Application](#running-the-application)
-- [Dependencies](#dependencies)
-- [Folder Structure](#folder-structure)
-- [Common Errors & Solutions](#common-errors--solutions)
-- [Contributing](#contributing)
-- [License](#license)
+### `npm start`
 
-## Description
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-This is a personal portfolio website developed using **React**. It highlights my skills, projects, experience, and provides a contact form to reach out.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Installation
+### `npm test`
 
-To install and set up the project locally:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. **Clone the repository:**
+### `npm run build`
 
-   ```bash
-   git clone https://github.com/your-username/portfolio-project.git
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. **Navigate into the project directory:**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   ```bash
-   cd portfolio-project
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-3. **Install the dependencies:**
+### `npm run eject`
 
-   Run the following command to install the required dependencies:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   ```bash
-   npm install
-   ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Running the Application
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Once the dependencies are installed, you can start the development server:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-```bash
-npm start
-```
+## Learn More
 
-This will start the development server and open the application in your default web browser at `http://localhost:3000`.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Dependencies
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Here is a list of the main dependencies used in the project:
+### Code Splitting
 
-- `react`: Frontend library for building the user interface.
-- `react-router-dom`: Used for routing in React.
-- `react-icons`: Provides a collection of customizable icons for use in React applications.
-- `react-simple-animate`: Provides simple animations to enhance user interaction.
-- `react-tsparticles`: A library for creating particle effects on the website.
-- `tsparticles`: Used for customizing and controlling particles on the page.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Folder Structure
+### Analyzing the Bundle Size
 
-```
-portfolio-project/
-├── src/
-│   ├── components/
-│   │   ├── PageHeaderContent.js
-│   │   └── Navbar.js
-│   ├── containers/
-│   │   ├── About.js
-│   │   ├── Contact.js
-│   │   └── Home.js
-│   ├── utils.js/
-│   ├── App.js
-│   ├── index.js
-│   └── styles.scss
-└── package.json
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- `components/`: Reusable components like header, navbar, etc.
-- `containers/`: React components for different sections of the portfolio, like Home, About, Contact, etc.
-- `utils.js/`: Utility functions and configurations (like particles settings).
-- `App.js`: Main React component, which includes routing and layout.
+### Making a Progressive Web App
 
-## Common Errors & Solutions
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### 1. **Module Not Found**
-   **Error:**
-   ```
-   Module not found: Error: Can't resolve '...'
-   ```
-   **Solution:**
-   - Ensure that the import path is correct and relative to the file being referenced.
-   - Make sure the necessary components or dependencies are correctly installed.
+### Advanced Configuration
 
-### 2. **React Icons Error**
-   **Error:**
-   ```
-   Can't resolve 'react-icons/bs'
-   ```
-   **Solution:**
-   - Ensure that `react-icons` is installed correctly by running:
-     ```bash
-     npm install react-icons
-     ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### 3. **Element Type Is Invalid**
-   **Error:**
-   ```
-   Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object.
-   ```
-   **Solution:**
-   - Ensure that the component is being imported/exported correctly. For example:
-     ```js
-     // Correct usage:
-     import PageHeaderContent from './components/PageHeaderContent';
-     ```
+### Deployment
 
-### 4. **npm start not working**
-   **Solution:**
-   - Make sure that the dependencies are installed properly.
-   - Run `npm install` if any packages are missing.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## Contributing
+### `npm run build` fails to minify
 
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
